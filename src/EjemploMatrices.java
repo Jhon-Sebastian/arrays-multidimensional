@@ -17,7 +17,7 @@ public class EjemploMatrices {
         System.out.println("Numero de Columnas: " + numeros[0].length);
 
         System.out.println("Primer elemento : " + numeros[0][0]);
-        System.out.println("Ultimo elemento : " + numeros[numeros.length -1][numeros[0].length -1]); //1-3
+        System.out.println("Ultimo elemento : " + numeros[numeros.length -1][numeros[1].length -1]); //1-3
 
         //mOSTRANDO ARREGLO
         for (int i = 0; i < numeros.length; i++) {
