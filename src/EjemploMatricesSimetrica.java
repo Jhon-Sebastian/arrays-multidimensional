@@ -34,12 +34,12 @@ public class EjemploMatricesSimetrica {
         };
 
         //Usando for
-        salir:
-        for (int i = 0; i < matriz.length; i++) {
-            for (int j = 0; j < i; j++) {
+
+      exit:for (int i = 0; i < matriz.length; i++) {
+             for (int j = 0; j < i; j++) {
                 if (matriz[i][j] != matriz[j][i]) {
                     simetrica = false;
-                    break salir;
+                    break exit;
                 }
             }
         }
@@ -94,7 +94,7 @@ public class EjemploMatricesSimetrica {
          */
 
 
-        
+
         if (simetrica) {
             System.out.println("Es SIMETRICA");
         } else {

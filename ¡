@@ -1,0 +1,10 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Sebastian
+	email = jhoncagua603@gmail.com
+# Please adapt and uncomment the following lines:
+#	name = unknown
+#	email = jhonc@LAPTOP-6GAJ7F3V.(none)
+[alias]
+	lg = log --oneline --decorate --all --graph
+	s = status -s -b
